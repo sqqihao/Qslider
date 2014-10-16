@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.slider ul,li{
+	list-style:none;
+}
+.slider{
+	position:relative;
+}
+.slider .list{
+	position:absolute;
+}
+.slider .list li{
+	float:left;
+}
+.slider .list img{
+	height:200px;
+	width:200px;
+	/*因为有空格存在, 所以要使用vertical-align设置"bottom"或者"top"对其方式, 就会忽略空格*/
+	vertical-align:bottom;
+	border:0;
+}
+.slider .nav{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.slider .nav li{
+	color:#fff;
+	background:#999;
+	border:1px solid #CCC;
+	margin-right:4px;
+	padding:4px;
+	cursor:pointer;
+	float:left;
+}
+.slider .nav li.cur{
+	background:#39F;
+}
+
+/*********nav-right-top在上面**********/
+.slider .nav-right-top{
+	position:absolute;
+	top:0;
+	right:0;
+}
+.slider .nav-right-top li{
+	color:#fff;
+	background:#999;
+	border:1px solid #CCC;
+	margin-right:4px;
+	padding:4px;
+	cursor:pointer;
+	float:left;
+}
+.slider .nav-right-top li.cur{
+	background:#39F;
+}
+/*********nav-right-top在上面**********/
+
+
+/*********nav-left-bottom在左下**********/
+.slider .nav-left-bottom{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.slider .nav-left-bottom li{
+	color:#fff;
+	background:#999;
+	border:1px solid #CCC;
+	margin-right:4px;
+	padding:4px;
+	cursor:pointer;
+	float:left;
+}
+.slider .nav-left-bottom li.cur{
+	background:#39F;
+}
+/*********nav-left-bottom在左下**********/
+
+/*********nav-left-top在左上**********/
+.slider .nav-left-top{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.slider .nav-left-top li{
+	color:#fff;
+	background:#999;
+	border:1px solid #CCC;
+	margin-right:4px;
+	padding:4px;
+	cursor:pointer;
+	float:left;
+}
+.slider .nav-left-top li.cur{
+	background:#39F;
+}
+/*********nav-left-top在左上**********/
